@@ -3,12 +3,15 @@ use std::collections::HashMap;
 const EXAMPLE: &str = include_str!("example");
 const INPUT: &str = include_str!("input");
 
+/// https://adventofcode.com/2024/day/1
 fn main() {
     assert_eq!(part_one(EXAMPLE), 11);
     println!("{}", part_one(INPUT));
+    assert_eq!(part_one(INPUT), 2196996);
 
     assert_eq!(part_two(EXAMPLE), 31);
     println!("{}", part_two(INPUT));
+    assert_eq!(part_two(INPUT), 23655822);
 }
 
 fn part_one(input: &str) -> i32 {
