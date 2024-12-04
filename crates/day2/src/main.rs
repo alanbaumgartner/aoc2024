@@ -11,7 +11,7 @@ fn main() {
 
     assert_eq!(part_two(EXAMPLE), 4);
     println!("{}", part_two(INPUT));
-    assert_eq!(part_two(EXAMPLE), 343);
+    assert_eq!(part_two(INPUT), 343);
 }
 
 fn part_one(input: &str) -> i32 {
