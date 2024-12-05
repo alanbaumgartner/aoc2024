@@ -62,7 +62,7 @@ fn is_safe_dampened(levels: &Vec<i32>) -> bool {
     levels
         .into_iter()
         .enumerate()
-        .map(|(index, level)| {
+        .map(|(index, _)| {
             let mut temp = levels.clone();
             temp.remove(index);
             temp

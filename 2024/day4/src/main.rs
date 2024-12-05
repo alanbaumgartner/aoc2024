@@ -176,30 +176,22 @@ mod part2 {
         // # A #
         // M # S
 
-        permutations.push(vec![
-            north_west, south_east, south_west, north_east,
-        ]);
+        permutations.push(vec![north_west, south_east, south_west, north_east]);
 
         // M # M
         // # A #
         // S # S
-        permutations.push(vec![
-            north_west, south_east,north_east, south_west,
-        ]);
+        permutations.push(vec![north_west, south_east, north_east, south_west]);
 
         // S # M
         // # A #
         // S # M
-        permutations.push(vec![
-            north_east, south_west, south_east, north_west,
-        ]);
+        permutations.push(vec![north_east, south_west, south_east, north_west]);
 
         // S # S
         // # A #
         // M # M
-        permutations.push(vec![
-            south_east, north_west, south_west, north_east,
-        ]);
+        permutations.push(vec![south_east, north_west, south_west, north_east]);
 
         permutations
     }
